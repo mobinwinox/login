@@ -1,0 +1,78 @@
+body {
+    background-image: url(./bgdi1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    backdrop-filter : blur(6px);
+    font-style: italic;
+}
+
+#center {
+    text-align: center;
+    color: black;
+    margin-block-start: 175px
+}
+
+#button {
+    background: transparent;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#button:hover {
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+input {
+    background: transparent;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
+input:focus {
+    color: white;
+}
+
+inpuy:active {
+    color:white;
+}
+
+input::placeholder{
+    font-style: italic;
+    color: black;
+}
+
+input:hover {
+    background-color: black;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+input:hover::placeholder {
+    color: white;
+}
+
+#a {
+    color: black;
+    text-decoration:none;
+}
+
+#a:hover {
+    color: white;
+}
+
+h5 {
+    color:white;
+}
