@@ -1,5 +1,4 @@
 # login
-Make login page wih html and css ;
-Instagram: Instagram.com/cod_winox
+make login page with css and html
 
-             © 2022 mobinwinox
+instagram.com/cod_winox
